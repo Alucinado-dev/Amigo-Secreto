@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Share Tech Mono' ;
+    src: url(/assets/fonts/Share_Tech_Mono/ShareTechMono-Regular.ttf);
+}
+
+
+:root{
+    --logo1: #FF00FF;
+    --logo2: #00FFFF;
+    --logo3: #0600ab;
+    --text-color-footer: #bacfdd;
+    --tech: "Share Tech Mono", monospace;
+    
+}
+
+ 

@@ -61,6 +61,16 @@ a, button{
 	box-sizing: border-box;
 }
 
+body{
+	height: 100dvh;
+	width: 100dvw;
+    overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
 /* Media Queries 
     --small-mobile: 320px;
     --mobile: 480px;

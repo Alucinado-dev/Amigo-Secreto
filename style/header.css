@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height:40dvh;
+    background-color: var(--header-bg-color);
+}
+
+header div{
+    background-image: url(/assets/images/4a284c0c7499d1a3f05b4d5723339a52.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 8rem;
+    padding: 3rem;
+}
+
+header #title{
+    font-size: 7.2rem;
+    font-weight: 700;
+    color: var(--header-title-color);
+    text-shadow: var(--header-title-shadow);
+    text-align: center;
+    padding: 2rem;
+    font-family: var(--header-title-font);
+}
+
+header #subtitle{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--header-subtitle-color);
+    text-shadow: var(--header-subtitle-shadow);
+    text-align: end;
+    padding: 1rem;
+    font-family: var(--header-subtitle-font);
+}
+
+
+

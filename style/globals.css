@@ -11,6 +11,21 @@
     --text-color-footer: #bacfdd;
     --tech: "Share Tech Mono", monospace;
     
+
+    --header-bg-color: ;
+    --header-title-color: ;
+    --header-title-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    --header-title-font: ;
+    --header-subtitle-color: ;
+    --header-subtitle-shadow: ;
+    --header-subtitle-font: ;
+
+    --newfriend-bg-color: ;
+    --newfriend-title-color: ;
+    --newfriend-title-shadow: ;
+    --newfriend-title-font: ;
+
+
 }
 
  

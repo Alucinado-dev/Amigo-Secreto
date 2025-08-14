@@ -4,9 +4,6 @@ footer{
     align-items: center;
     padding: 1rem;
     margin: auto;
-
-    position: absolute;
-    bottom: 0;
     box-sizing: border-box;
     width: 100%;
 }

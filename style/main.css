@@ -1,0 +1,44 @@
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+main section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main #new-friend{
+
+    background-color: var(--newfriend-bg-color);
+
+}
+
+main #new-friend h2{
+    font-family: var(--newfriend-title-font);
+    font-size: 2.4rem;
+    color: var(--newfriend-title-color);
+    text-shadow: var(--newfriend-title-shadow);
+    text-align: center;
+    font-weight: 600;
+    margin: 1.5rem 0;
+
+}
+
+main #new-friend form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+main #friend-sorted{
+    display: none;
+}

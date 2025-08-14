@@ -18,23 +18,63 @@
     <!-- styles -->
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/globals.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/footer.css">
 
   </head>
 
   <body>
+    <header>
+        <div></div>
+      <h1 id="title">Amigo Secreto</h1>
+      <p id="subtitle">Organize seu amigo secreto de forma fácil e divertida!</p>
+    </header>
 
+    <main>
+        <section id="new-friend">
+            <h2>Adicione um amigo</h2>
+            <form>
+                <div class="input-container">
+                    <label for="friend-name">Digite o nome do amigo</label>
+                    <input id="friend-name" name="friend-name" type="text">
+                </div>
 
+                <button type="submit" class="button-primary">Adicionar</button>
+            </form>
+        </section>
+        
+        
+        <section id="friend-list">
+            <ul id="friend-list-ul">
+                <li class="friend-list-item"">
+                    <span>amigo 1</span>
+                    <button><i class="fa-solid fa-circle-minus"></i></button>
+                </li>
+
+                <li class="friend-list-item"">
+                    <span>amigo 2</span>
+                    <button><i class="fa-solid fa-circle-minus"></i></button>
+                </li>
+
+                <li class="friend-list-item"">
+                    <span>amigo 3</span>
+                    <button><i class="fa-solid fa-circle-minus"></i></button>
+                </li>
+            </ul>
+        </section>
+
+        <dialog id="friend-sorted">
+            <img src="" alt="">
+            <p></p>
+        </dialog>
+    </main>
 
     <footer>
       <div class="developed-by">
         <p id="dev-by">Developed with 💜 by</p>
-        <a
-          href="https://alucinado-dev.vercel.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a>
-        <img src="src/assets/ALucin4do-logo.png" alt="logo of ALucin4do" />
+        <a  href="https://alucinado-dev.vercel.app" target="_blank" rel="noopener noreferrer"> </a>
+        <img src="/assets/favicon/ALucin4do-logo.png" alt="Logo do Alucinado-dev">
       </div>
     </footer>
   </body>

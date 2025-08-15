@@ -26,26 +26,27 @@
 
   <body>
     <header>
-        <div></div>
       <h1 id="title">Amigo Secreto</h1>
       <p id="subtitle">Organize seu amigo secreto de forma fácil e divertida!</p>
+      <div></div>
     </header>
 
     <main>
         <section id="new-friend">
             <h2>Adicione um amigo</h2>
-            <form>
+            <form id="add-new-friend">
                 <div class="input-container">
                     <label for="friend-name">Digite o nome do amigo</label>
                     <input id="friend-name" name="friend-name" type="text">
                 </div>
-
-                <button type="submit" class="button-primary">Adicionar</button>
             </form>
+            
+           <button type="submit" form="add-new-friend">Adicionar <i class="fa-solid fa-circle-plus"></i></button>
         </section>
         
         
         <section id="friend-list">
+            <h2>Lista de amigos</h2>
             <ul id="friend-list-ul">
                 <li class="friend-list-item"">
                     <span>amigo 1</span>
@@ -62,9 +63,11 @@
                     <button><i class="fa-solid fa-circle-minus"></i></button>
                 </li>
             </ul>
+
+            <button id="draw-btn">Sortear um amigo <i class="fa-solid fa-shuffle"></i> </button>
         </section>
 
-        <dialog id="friend-sorted">
+        <dialog id="friend-selected">
             <img src="" alt="">
             <p></p>
         </dialog>

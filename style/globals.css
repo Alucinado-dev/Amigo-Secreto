@@ -8,9 +8,10 @@
     --logo1: #FF00FF;
     --logo2: #00FFFF;
     --logo3: #0600ab;
-    --text-color-footer: #bacfdd;
+    --text-color-footer: #344e5c;
     --tech: "Share Tech Mono", monospace;
     
+    --body-color: #4ab19d;
 
     --header-bg-color: ;
     --header-title-color: ;
@@ -24,8 +25,36 @@
     --newfriend-title-color: ;
     --newfriend-title-shadow: ;
     --newfriend-title-font: ;
+    --newfriend-form-bg-color: #344e5c  ;
+    --newfriend-form-label-color: white;
+    --newfriend-form-label-shadow:  2px 2px 4px rgba(0, 0, 0, 0.5) ;
+    --newfriend-form-label-font: ;
+    --newfriend-form-input-bg-color: #f0f0f0 ;
+    --newfriend-form-input-color: #333 ;
+    --newfriend-form-input-shadow:inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+    --newfriend-form-input-font: ;
+    --newfriend-form-button-font: ;
+    --newfriend-form-button-color: black ;
+    --newfriend-form-button-bg-color:#e17a47 ;
+    --newfriend-form-button-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
 
+
+    --friend-list-bg-color: ;
+    --friend-list-title-color: ;
+    --friend-list-title-shadow: ;
+    --friend-list-title-font: ;
+    --friend-list-ul-bg-color: #ef3d59 ;
+    --friend-list-li-bg-color: #dddddd ;
+    --friend-list-li-color: ;
+    --friend-list-li-font: ;
+    --friend-list-li-shadow: ;
+    
+    --draw-btn-bg-color:#efc958;
+    
+    --selectedfriend-bg-color:  #e17a47;
 }
-
+body{
+    background-color: var(--body-color);
+}
  

@@ -17,3 +17,16 @@ const friendListUl = document.getElementById('friend-list-ul')
 friendListUl.addEventListener('click', (e) => {
   removeFriend(e)
 })
+
+
+
+
+const easterEgg = document.querySelector('#easter-egg')
+easterEgg.addEventListener('click', () => {
+  easterEggDialog.showModal()
+})
+
+const easterEggDialog = document.querySelector('#easter-egg-dialog')
+easterEggDialog.addEventListener('click', () => {
+  easterEggDialog.close()
+})

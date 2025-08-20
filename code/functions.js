@@ -82,6 +82,10 @@ const drawFriend = () => {
 const displayDrawResult = (drawResult) => {
   const friendsDrawnUl = document.querySelector('#friends-drawn-ul')
   friendsDrawnUl.innerHTML = ''
+  
+  const shuffledEntries = shuffleArray(Object.entries(drawResult))
+  const shuffledDrawResult = Object.fromEntries(shuffledEntries)
+  drawResult = shuffledDrawResult
 
   for (const giver in drawResult) {
     const listItem = document.createElement('li')

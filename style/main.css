@@ -195,7 +195,7 @@ main #friend-list #draw-btn{
     color: var(--newfriend-form-button-color);
     font-family: var(--newfriend-form-button-font);
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 900;
     cursor: pointer;
     transition: all 0.3s ease;
 

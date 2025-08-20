@@ -5,6 +5,9 @@ header{
     justify-content: center;
     min-height:40dvh;
     background-color: var(--header-bg-color);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0 0 2rem 2rem;
 }
 
 header div{

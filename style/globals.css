@@ -12,46 +12,46 @@
     --text-color-footer: #bacfdd;
     --tech: "Share Tech Mono", monospace;
     
-    --body-color: #4ab19d;
+    --body-color: #344e5c;
 
-    --header-bg-color: ;
-    --header-title-color: ;
-    --header-title-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    --header-title-font: ;
-    --header-subtitle-color: ;
-    --header-subtitle-shadow: ;
-    --header-subtitle-font: ;
+    --header-bg-color: #344e5c ;
+    --header-title-color: #fdfcf5 ;
+    --header-title-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8), 2px 2px 10px rgba(0, 0, 0, 0.5) ;
+    --header-title-font: 'Fredoka', sans-serif ;
+    --header-subtitle-color: #a9b1b3 ;
+    --header-subtitle-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5) ;
+    --header-subtitle-font: 'Quicksand', sans-serif;
 
     --newfriend-bg-color: ;
-    --newfriend-title-color: ;
-    --newfriend-title-shadow: ;
-    --newfriend-title-font: ;
-    --newfriend-form-bg-color: #344e5c  ;
-    --newfriend-form-label-color: white;
+    --newfriend-title-color: #fdfcf5 ;
+    --newfriend-title-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7) ;
+    --newfriend-title-font: 'Baloon 2', cursive;
+    --newfriend-form-bg-color: #4ab19d  ;
+    --newfriend-form-label-color: #222a3e;
     --newfriend-form-label-shadow:  2px 2px 4px rgba(0, 0, 0, 0.5) ;
-    --newfriend-form-label-font: ;
-    --newfriend-form-input-bg-color: #f0f0f0 ;
-    --newfriend-form-input-color: #333 ;
+    --newfriend-form-label-font: 'Raleway', sans-serif;
+    --newfriend-form-input-bg-color: #f9f5e3 ;
+    --newfriend-form-input-color: #28423c ;
     --newfriend-form-input-shadow:inset 1px 1px 3px rgba(0, 0, 0, 0.2);
-    --newfriend-form-input-font: ;
-    --newfriend-form-button-font: ;
-    --newfriend-form-button-color: black ;
-    --newfriend-form-button-bg-color:#e17a47 ;
+    --newfriend-form-input-font: 'Nunito', sans-serif;
+    --newfriend-form-button-font: 'Nunito', sans-serif ;
+    --newfriend-form-button-color: #344e5c ;
+    --newfriend-form-button-bg-color:#efc958 ;
     --newfriend-form-button-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
 
 
     --friend-list-bg-color: ;
-    --friend-list-title-color: ;
-    --friend-list-title-shadow: ;
-    --friend-list-title-font: ;
+    --friend-list-title-color:  #fdfcf5;
+    --friend-list-title-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7) ;
+    --friend-list-title-font: 'Baloon 2', cursive ;
     --friend-list-ul-bg-color: #ef3d59 ;
     --friend-list-ul-scrollbar-color:#ffcab2 ;
     --firend-list-ul-scrollbar-hover: #ffb0b0;
-    --friend-list-li-bg-color: #dddddd ;
-    --friend-list-li-color: ;
-    --friend-list-li-font: ;
-    --friend-list-li-shadow: ;
+    --friend-list-li-bg-color: #ffcab2 ;
+    --friend-list-li-color: #393a45;
+    --friend-list-li-font: 'Nunito', sans-serif ;
+    --friend-list-li-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     
     --draw-btn-bg-color:#efc958;
     

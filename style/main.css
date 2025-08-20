@@ -3,6 +3,7 @@ main{
     height: 100%;
     width: 100%;
     justify-content: space-between;
+    padding: 1rem;
 }
 
 main section{
@@ -39,9 +40,10 @@ main #new-friend form{
     padding: 2rem;
     background-color: var(--newfriend-form-bg-color);
     border-radius: 1rem;
-
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+
 
 main #new-friend form .input-container{
     display: flex;
@@ -66,18 +68,16 @@ main #new-friend form .input-container input{
     width: 100%;
     padding: 1rem;
     border-radius: 0.5rem;
-
     font-size: 1.6rem;
+    font-weight: 600;
     color: var(--newfriend-form-input-color);
     background-color: var(--newfriend-form-input-bg-color);
     box-shadow: var(--newfriend-form-input-shadow);
     font-family: var(--newfriend-form-input-font);
-    text-shadow: var(--newfriend-form-input-shadow);
     border: 2px solid transparent;
 
     &:focus, &:hover{
-        border-color: #333;
-
+        border-color: var(--newfriend-form-input-color);
     }
 }
 
@@ -89,7 +89,7 @@ main #new-friend  button{
     color: var(--newfriend-form-button-color);
     font-family: var(--newfriend-form-button-font);
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 900;
     cursor: pointer;
     transition: all 0.3s ease;
 
@@ -176,7 +176,9 @@ main #friend-list ul li button{
     cursor: pointer;
     color: var(--friend-list-ul-bg-color);
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 900;
+    font-family: var(--newfriend-form-button-font);
+    transition: all 0.3s ease;
 
     &:hover, &:focus{
         color: var(--newfriend-form-button-bg-color);

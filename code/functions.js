@@ -96,18 +96,15 @@ const displayDrawResult = (drawResult) => {
   }
 }
 
+const resultModal = document.querySelector('#friends-drawn')
+
 const showResult = () => {
   const drawResult = drawFriend()
-
-  // Só exibe o modal se o sorteio foi bem-sucedido
-  if (drawResult) {
-    displayDrawResult(drawResult)
-    const modal = document.querySelector('#friends-drawn')
-    modal.showModal()
-  }
+  displayDrawResult(drawResult)
+  resultModal.showModal()
 }
 
 const closeResult = () => {
-  const modal = document.querySelector('#friends-drawn')
-  modal.close()
+  resultModal.close()
+  console.log('o modal foi fechado')
 }

@@ -6,6 +6,7 @@ footer{
     margin: auto;
     box-sizing: border-box;
     width: 100%;
+    background-color: var(--footer-bg-color);
 }
 
 
@@ -35,6 +36,11 @@ footer .developed-by a{
     font-weight: 900;
     transition: all 200ms ease-in-out;
     color: var(--text-color-footer);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    text-decoration: none;
     
     &::before{
         content: '</ALUCINADO>';

@@ -8,7 +8,8 @@
     --logo1: #FF00FF;
     --logo2: #00FFFF;
     --logo3: #0600ab;
-    --text-color-footer: #344e5c;
+    --footer-bg-color: #344e5c;
+    --text-color-footer: #bacfdd;
     --tech: "Share Tech Mono", monospace;
     
     --body-color: #4ab19d;
@@ -45,6 +46,8 @@
     --friend-list-title-shadow: ;
     --friend-list-title-font: ;
     --friend-list-ul-bg-color: #ef3d59 ;
+    --friend-list-ul-scrollbar-color:#ffcab2 ;
+    --firend-list-ul-scrollbar-hover: #ffb0b0;
     --friend-list-li-bg-color: #dddddd ;
     --friend-list-li-color: ;
     --friend-list-li-font: ;
@@ -52,7 +55,8 @@
     
     --draw-btn-bg-color:#efc958;
     
-    --selectedfriend-bg-color:  #e17a47;
+    --modal-bg-color:  #e17a47;
+    --modal-ul-bg-color:#f9a26c ;
 }
 body{
     background-color: var(--body-color);

@@ -7,7 +7,7 @@ Uma aplicação web simples e divertida para organizar sorteios de Amigo Secreto
 
 ## 🔗 Acesso
 
-Você pode testar a aplicação ao vivo aqui: **[Amigo Secreto App](https://sorteador-amigo-secreto-one.vercel.app/)**
+Você pode testar a aplicação ao vivo aqui: **[Sorteador De Amigo Secreto](https://sorteador-amigo-secreto-one.vercel.app/)**
 
 ## ✨ Funcionalidades
 

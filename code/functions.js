@@ -11,11 +11,13 @@ const addFriend = () => {
     return
   }
 
-  if (friendName.contains('1234567890')){
-    alert('Por favor, digite um nome sem números.')
+  /* verifica se friendName tem algum numero */
+  if (/\d/.test(friendName)) {
+    alert('Por favor, digite um nome válido (sem números).')
     nameInput.focus()
     return
   }
+  
 
   if (allFriends.includes(friendName)) {
     alert(

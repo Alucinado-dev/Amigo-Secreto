@@ -7,6 +7,13 @@ const addFriend = () => {
 
   if (!friendName) {
     alert('Por favor, digite um nome.')
+    nameInput.focus()
+    return
+  }
+
+  if (friendName.contains('1234567890')){
+    alert('Por favor, digite um nome sem números.')
+    nameInput.focus()
     return
   }
 
@@ -24,14 +31,13 @@ const addFriend = () => {
         <span>${friendName}</span>
         <button><i class="fa-solid fa-circle-minus"></i></button>
     `
-  // Corrigido para selecionar a lista <ul> corretamente
   const friendListUl = document.querySelector('#friend-list-ul')
   friendListUl.appendChild(friendLi)
 
   resetInput()
 }
 
-const resetInput = () => { // Corrigido erro de digitação (Iput -> Input)
+const resetInput = () => { 
   document.querySelector('#friend-name').value = ''
   document.querySelector('#friend-name').focus()
 }
